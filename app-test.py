@@ -422,11 +422,11 @@ def plot_timeseries(df: pd.DataFrame, date_cols, numeric_cols):
 # =========================================================
 def main():
     col_logo, col_title, col_logo2 = st.columns([1, 6, 1])
-    with col_logo: st.image("C:/VSCode/adidasPoC/adidas-logo.png", width=90)
+    with col_logo: st.image("https://github.com/mtahiraslan/chatbot-streamlit/blob/main/adidas-logo.png", width=90)
     with col_title:
         st.markdown('<div class="main-header">adidas Insight Chatbot 🤖</div>', unsafe_allow_html=True)
         st.markdown('<div class="sub-header">Explore your data, uncover insights, and accelerate decisions.</div>', unsafe_allow_html=True)
-    with col_logo2: st.image("C:/VSCode/adidasPoC/beebi-logo.png", width=140)
+    with col_logo2: st.image("https://github.com/mtahiraslan/chatbot-streamlit/blob/main/beebi-logo.png", width=140)
 
     configure_openai()
 
@@ -542,3 +542,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
